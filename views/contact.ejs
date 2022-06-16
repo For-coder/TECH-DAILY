@@ -1,0 +1,17 @@
+<%-include("partials/header"); -%>
+
+<div id="scroll" id="content">
+  <h1 id="green">Contact</h1>
+  <form action="/contact" method="post" class="">
+    <div class="form-group">
+        <label for="postName">Name</label>    
+        <input class="form-control" type="text" name="postName" placeholder="What is your name?" />
+
+        <label for="postMessage">Message</label>    
+        <textarea  class="form-control" name="postMessage" rows="5" cols="30" placeholder="Enter your message..."></textarea>
+
+        <button type="submit" name="">Send</button>
+</div>
+  </form>
+</div>
+<%-include("partials/footer"); -%>

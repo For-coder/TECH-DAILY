@@ -1,0 +1,14 @@
+<%-include("partials/header"); -%>
+
+<div id="content">
+  <h1 id="green">All Posts</h1>
+  <%posts.forEach((post) => { %>
+  <h2><%=post.name%></h2>
+  <h4><%=post.title%></h4>
+    <p>
+      <%=post.content%>
+      </p>
+  </p>
+  <%})%>
+</div>
+<%-include("partials/footer2"); -%>

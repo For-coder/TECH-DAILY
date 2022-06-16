@@ -1,0 +1,9 @@
+<%-include("partials/header"); -%>
+
+<div id="content">
+    <%posts.forEach((post) => { %>
+    <h2><%=post.name%></h2>
+    <p><%=post.message%></p>
+    <%})%>
+</div>
+<%-include("partials/footer2"); -%>
